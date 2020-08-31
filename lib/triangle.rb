@@ -9,7 +9,7 @@ class Triangle
   end
   
   def kind
-    if @a + @b < @c || @a + @c < @b || @b + @c < @a && @a <= 0 || @b <= 0 || @c <= 0
+    if @a + @b < @c || @a + @c < @b || @b + @c < @a || @a <= 0 || @b <= 0 || @c <= 0
       raise TriangleError
     elsif @a == @b && @b == @c
       return :equilateral

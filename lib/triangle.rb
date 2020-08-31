@@ -20,8 +20,8 @@ class Triangle
     end
   end
   
-  def kind
-    if 
+  # def kind
+  #   if 
   
   class TriangleError < StandardError
   
